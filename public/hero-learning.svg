@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F7FBFC"/>
+      <stop offset="55%" stop-color="#EEF6F4"/>
+      <stop offset="100%" stop-color="#E8F1F5"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.6" fill="#7AA8B5" opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <rect width="1920" height="1080" fill="url(#dots)"/>
+
+  <circle cx="220" cy="180" r="120" fill="#A8D5C4" opacity="0.22"/>
+  <circle cx="1680" cy="240" r="150" fill="#9EC5D4" opacity="0.2"/>
+  <circle cx="1540" cy="860" r="180" fill="#F2D4A7" opacity="0.18"/>
+  <circle cx="320" cy="900" r="140" fill="#E7B7C8" opacity="0.16"/>
+
+  <!-- book stack -->
+  <g transform="translate(120,620)">
+    <rect x="0" y="110" width="260" height="42" rx="6" fill="#2F6F7E"/>
+    <rect x="10" y="118" width="40" height="26" rx="3" fill="#E8F2F5" opacity="0.35"/>
+    <rect x="8" y="68" width="250" height="42" rx="6" fill="#5F9A86"/>
+    <rect x="18" y="76" width="36" height="26" rx="3" fill="#E8F2EE" opacity="0.35"/>
+    <rect x="16" y="26" width="240" height="42" rx="6" fill="#E9A46A"/>
+    <rect x="26" y="34" width="36" height="26" rx="3" fill="#FFF6E8" opacity="0.35"/>
+  </g>
+
+  <!-- open book -->
+  <g transform="translate(420,700)">
+    <path d="M20 20 C90 0 150 0 220 20 L220 150 C150 130 90 130 20 150 Z" fill="#FFFDF8" stroke="#C9D7DD" stroke-width="4"/>
+    <path d="M220 20 C290 0 350 0 420 20 L420 150 C350 130 290 130 220 150 Z" fill="#FFFDF8" stroke="#C9D7DD" stroke-width="4"/>
+    <line x1="220" y1="20" x2="220" y2="150" stroke="#B7C8CF" stroke-width="3"/>
+    <line x1="60" y1="55" x2="180" y2="50" stroke="#D5E0E5" stroke-width="4" stroke-linecap="round"/>
+    <line x1="55" y1="78" x2="185" y2="74" stroke="#D5E0E5" stroke-width="4" stroke-linecap="round"/>
+    <line x1="62" y1="101" x2="170" y2="97" stroke="#D5E0E5" stroke-width="4" stroke-linecap="round"/>
+    <line x1="260" y1="52" x2="380" y2="55" stroke="#D5E0E5" stroke-width="4" stroke-linecap="round"/>
+    <line x1="255" y1="75" x2="385" y2="78" stroke="#D5E0E5" stroke-width="4" stroke-linecap="round"/>
+    <line x1="265" y1="98" x2="375" y2="101" stroke="#D5E0E5" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- ABC blocks -->
+  <g transform="translate(980,690)">
+    <rect x="0" y="70" width="88" height="88" rx="14" fill="#E85D5D"/>
+    <text x="44" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#fff">A</text>
+    <rect x="100" y="40" width="88" height="88" rx="14" fill="#F0A202"/>
+    <text x="144" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#fff">B</text>
+    <rect x="200" y="70" width="88" height="88" rx="14" fill="#3D8B6E"/>
+    <text x="244" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#fff">C</text>
+  </g>
+
+  <!-- puzzle pieces -->
+  <g transform="translate(1380,680)">
+    <path d="M20 40 h50 a18 18 0 0 1 0 36 h20 v50 h-50 a18 18 0 0 0 0-36 h-20 z" fill="#5BA4B8"/>
+    <path d="M110 20 h50 a18 18 0 0 1 0 36 h20 v50 h-50 a18 18 0 0 0 0-36 h-20 z" fill="#E07A5F"/>
+    <path d="M70 110 h50 a18 18 0 0 1 0 36 h20 v50 h-50 a18 18 0 0 0 0-36 h-20 z" fill="#81B29A"/>
+  </g>
+
+  <!-- number cards -->
+  <g transform="translate(250,220)">
+    <rect width="100" height="120" rx="16" fill="#fff" stroke="#BFD5DC" stroke-width="4"/>
+    <text x="50" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="56" font-weight="800" fill="#2F6F7E">1</text>
+    <rect x="120" y="20" width="100" height="120" rx="16" fill="#fff" stroke="#BFD5DC" stroke-width="4"/>
+    <text x="170" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="56" font-weight="800" fill="#5F9A86">2</text>
+    <rect x="240" y="0" width="100" height="120" rx="16" fill="#fff" stroke="#BFD5DC" stroke-width="4"/>
+    <text x="290" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="56" font-weight="800" fill="#E9A46A">3</text>
+  </g>
+
+  <!-- standing books -->
+  <g transform="translate(1500,220)">
+    <rect x="0" y="20" width="48" height="220" rx="8" fill="#3A7CA5"/>
+    <rect x="10" y="36" width="10" height="180" rx="3" fill="#E8F2F5" opacity="0.4"/>
+    <rect x="56" y="40" width="48" height="200" rx="8" fill="#E76F51"/>
+    <rect x="66" y="54" width="10" height="160" rx="3" fill="#FFF3EE" opacity="0.4"/>
+    <rect x="112" y="10" width="48" height="230" rx="8" fill="#2A9D8F"/>
+    <rect x="122" y="28" width="10" height="190" rx="3" fill="#E8F2EE" opacity="0.4"/>
+  </g>
+
+  <!-- shape sorter learning game -->
+  <g transform="translate(700,200)">
+    <rect width="220" height="150" rx="22" fill="#F4E1C1" stroke="#E0C9A0" stroke-width="4"/>
+    <circle cx="55" cy="75" r="28" fill="#E85D5D"/>
+    <rect x="96" y="47" width="56" height="56" rx="8" fill="#3D8B6E"/>
+    <path d="M180 47 L208 103 L152 103 Z" fill="#F0A202"/>
+  </g>
+
+  <!-- crayons -->
+  <g transform="translate(1050,250) rotate(-18)">
+    <rect x="0" y="0" width="18" height="110" rx="6" fill="#E85D5D"/>
+    <rect x="26" y="10" width="18" height="110" rx="6" fill="#F0A202"/>
+    <rect x="52" y="0" width="18" height="110" rx="6" fill="#3A7CA5"/>
+    <rect x="78" y="12" width="18" height="110" rx="6" fill="#5F9A86"/>
+    <rect x="104" y="4" width="18" height="110" rx="6" fill="#9B5DE5"/>
+  </g>
+
+  <!-- letter tiles -->
+  <g transform="translate(560,480)">
+    <rect width="64" height="64" rx="12" fill="#fff" stroke="#9EC5D4" stroke-width="3"/>
+    <text x="32" y="44" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#2F6F7E">A</text>
+  </g>
+  <g transform="translate(650,510)">
+    <rect width="64" height="64" rx="12" fill="#fff" stroke="#A8D5C4" stroke-width="3"/>
+    <text x="32" y="44" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#3D6B5C">B</text>
+  </g>
+  <g transform="translate(740,475)">
+    <rect width="64" height="64" rx="12" fill="#fff" stroke="#F2D4A7" stroke-width="3"/>
+    <text x="32" y="44" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#B07D2A">C</text>
+  </g>
+
+  <!-- small open book -->
+  <g transform="translate(1680,520) rotate(12)">
+    <rect width="140" height="100" rx="10" fill="#FFFDF8" stroke="#C9D7DD" stroke-width="4"/>
+    <line x1="70" y1="8" x2="70" y2="92" stroke="#B7C8CF" stroke-width="3"/>
+    <line x1="20" y1="30" x2="55" y2="30" stroke="#D5E0E5" stroke-width="3" stroke-linecap="round"/>
+    <line x1="20" y1="48" x2="55" y2="48" stroke="#D5E0E5" stroke-width="3" stroke-linecap="round"/>
+    <line x1="85" y1="30" x2="120" y2="30" stroke="#D5E0E5" stroke-width="3" stroke-linecap="round"/>
+    <line x1="85" y1="48" x2="120" y2="48" stroke="#D5E0E5" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
