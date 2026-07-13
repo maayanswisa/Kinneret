@@ -43,9 +43,10 @@ const expertise = [
 
 const audience = [
   'תלמידים הזקוקים לחיזוק בקריאה, בכתיבה ובהבנת הנקרא.',
-  'תלמידים עם לקויות למידה או הפרעת קשב וריכוז (ADHD).',
-  'תלמידים החווים פערים לימודיים או ירידה בביטחון העצמי סביב הלמידה.',
+  'תלמידים עם לקויות למידה או הפרעת קשב וריכוז.',
+  'תלמידים שזקוקים לליווי בהשלמת פערים ולסביבת לימוד מעצימה',
   'הכנה ממוקדת למעברים משמעותיים, כגון עלייה לכיתה א׳ או מעבר לחטיבת הביניים.',
+  'בגרויות ברבי מלל: תנ״ך, אזרחות, ספרות, היסטוריה, עם דגש על כתיבה ארוכת טווח.',
 ] as const
 
 const processSteps = [
@@ -53,7 +54,7 @@ const processSteps = [
     step: '1',
     title: 'היכרות ומיפוי צרכים',
     description:
-      'פגישת היכרות והערכה ראשונית לזיהוי חוזקות, קשיים ונקודות להתערבות.',
+      'פגישת היכרות והערכה ראשונית לזיהוי חוזקות, קשיים ונקודות להתערבות',
   },
   {
     step: '2',
@@ -65,7 +66,7 @@ const processSteps = [
     step: '3',
     title: 'הוראה מותאמת ומעקב',
     description:
-      'עבודה שיטתית עם כלים דידקטיים מגוונים, ודיווח שוטף ושקוף להורים לאורך התהליך.',
+      'עבודה שיטתית עם כלים דידקטיים מגוונים, ושיתוף שוטף ושקוף להורים לאורך התהליך.',
   },
 ] as const
 
@@ -119,8 +120,9 @@ export default function LandingPage() {
           </p>
 
           <p className="animate-fade-up-delay-2 mt-5 max-w-xl text-base leading-relaxed text-ink-muted sm:text-lg">
-            ליווי אישי בהקניית קריאה וכתיבה, חיזוק מיומנויות למידה וקידום
-            לימודי — מכיתות היסוד ועד הכנה לבגרות.
+            שיעורים פרטיים בהוראה מותאמת לתלמיד/ה, הקניית מיומנויות למידה
+            ואסטרטגיות למידה. מהקניית קריאה בכיתות הנמוכות ועד הכנה לבגרויות
+            ברבי מלל.
           </p>
 
           <div className="animate-fade-up-delay-3 mt-9">
@@ -131,7 +133,7 @@ export default function LandingPage() {
               className="inline-flex min-h-12 items-center justify-center gap-2.5 rounded-2xl bg-whatsapp px-7 py-3.5 text-base font-bold text-white shadow-[0_12px_32px_rgba(37,211,102,0.45)] transition duration-200 hover:scale-[1.03] hover:bg-whatsapp-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-whatsapp active:scale-[0.98] sm:text-lg"
             >
               <WhatsAppIcon className="h-5 w-5 shrink-0" />
-              ליצירת קשר בוואטסאפ
+              ליצירת קשר ב-WhatsApp
             </a>
           </div>
         </div>
@@ -161,10 +163,11 @@ export default function LandingPage() {
               <div className="mt-2 h-1 w-14 rounded-full bg-sage-500" />
 
               <p className="mt-6 text-lg leading-8 text-ink-muted sm:text-xl sm:leading-9">
-                שמי כינרת שמם, מורה לחינוך מיוחד בעלת תעודת הוראה בחינוך
-                המיוחד. במערכת החינוך אני משמשת כמורת שילוב ומורת כו״ח, ובמקביל
-                מלווה תלמידים בשיעורים פרטיים מזה כ־8 שנים. אני מתמחה בהוראה
-                מותאמת ומקדמת, המותאמת לצרכים הייחודיים של כל תלמיד ותלמידה.
+                שמי כינרת שמם, מורה לחינוך מיוחד (M.ed) בעלת תעודת הוראה
+                בחינוך המיוחד. במערכת החינוך אני עובדת כמורת שילוב ומורת כו״ח,
+                ובמקביל מלווה תלמידים בשיעורים פרטיים מזה כ־8 שנים. אני מתמחה
+                בהוראה מותאמת ומקדמת, המותאמת לצרכים הייחודיים של כל תלמיד
+                ותלמידה.
               </p>
             </div>
           </div>
@@ -333,7 +336,7 @@ export default function LandingPage() {
                   <h3 className="font-bold text-lake-900">מיקום השיעורים</h3>
                   <p className="mt-1 text-base leading-7 text-ink-muted">
                     השיעורים מתקיימים בבית המורה או בלמידה מרחוק, בהתאם
-                    לצורך ולתיאום מראש.
+                    לצורך ובתיאום מראש.
                   </p>
                 </div>
               </div>
@@ -348,8 +351,8 @@ export default function LandingPage() {
                     החזרים ביטוחיים
                   </h3>
                   <p className="mt-1 text-base leading-7 text-ink-muted">
-                    ניתן לקבל תיעוד מקצועי המוכר בחלק מהביטוחים הפרטיים
-                    להחזרי טיפולים — בכפוף לתנאי הפוליסה שלכם.
+                    ניתן לקבל החזר בחלק מהביטוחים הפרטיים הכוללים הוראה
+                    מתקנת כנגד הצגת התעודות — שווה לבדוק.
                   </p>
                 </div>
               </div>
@@ -366,7 +369,7 @@ export default function LandingPage() {
                 className="inline-flex min-h-12 items-center justify-center gap-2.5 rounded-2xl bg-whatsapp px-7 py-3.5 text-base font-bold text-white shadow-[0_12px_32px_rgba(37,211,102,0.45)] transition duration-200 hover:scale-[1.03] hover:bg-whatsapp-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-whatsapp active:scale-[0.98]"
               >
                 <WhatsAppIcon className="h-5 w-5 shrink-0" />
-                ליצירת קשר בוואטסאפ
+                ליצירת קשר ב-WhatsApp
               </a>
             </div>
           </div>
@@ -384,7 +387,7 @@ export default function LandingPage() {
         href={WHATSAPP_URL}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="יצירת קשר עם כינרת בוואטסאפ"
+        aria-label="יצירת קשר עם כינרת ב-WhatsApp"
         className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-whatsapp text-white shadow-[0_10px_28px_rgba(37,211,102,0.45)] transition duration-200 hover:scale-110 hover:bg-whatsapp-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-whatsapp sm:bottom-7 sm:right-7 sm:h-16 sm:w-16"
       >
         <span
