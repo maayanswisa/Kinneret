@@ -149,7 +149,7 @@ export default function LandingPage() {
               alt="כינרת שמם"
               width={220}
               height={220}
-              className="h-40 w-40 shrink-0 rounded-[2rem] object-cover object-[center_18%] shadow-[0_16px_40px_rgba(26,83,96,0.12)] ring-4 ring-white sm:h-48 sm:w-48"
+              className="h-40 w-40 shrink-0 rounded-full object-cover object-center shadow-[0_16px_40px_rgba(26,83,96,0.12)] ring-4 ring-white sm:h-48 sm:w-48"
             />
             <div>
               <h2
