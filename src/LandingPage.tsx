@@ -11,57 +11,61 @@ import {
 } from 'lucide-react'
 
 const WHATSAPP_TEXT =
-  'שלום כינרת, אשמח לשמוע פרטים על שיעורים פרטיים'
+  'שלום כינרת, אשמח לקבל פרטים על הוראה מותאמת ושיעורים פרטיים'
 const WHATSAPP_URL = `https://wa.me/972526778017?text=${encodeURIComponent(WHATSAPP_TEXT)}`
 
 const expertise = [
   {
     title: 'הקניית קריאה וכתיבה',
-    description: 'שלבי היסוד והבסיס לקריאה שוטפת.',
+    description:
+      'בניית יסודות הקריאה והכתיבה, תרגול שיטתי ומעבר הדרגתי לקריאה שוטפת ומשמעותית.',
     icon: BookOpen,
   },
   {
-    title: 'מיומנויות כתיבה מתקדמות',
-    description: 'מענה על שאלות והבנת הנקרא, כתיבת טיעון.',
+    title: 'הבנת הנקרא וכתיבה מתקדמת',
+    description:
+      'פיתוח הבנת הנקרא, מענה על שאלות, ארגון רעיונות וכתיבת טיעון ברורה וממוקדת.',
     icon: FileText,
   },
   {
     title: 'הכנה לבגרויות',
-    description: 'כתיבה ממזגת והכנה מקיפה למבחני הבגרות.',
+    description:
+      'ליווי מובנה לקראת בחינות הבגרות, כולל כתיבה ממזגת ותרגול לפי דרישות הבחינה.',
     icon: GraduationCap,
   },
   {
-    title: 'חינוך מיוחד ושילוב',
-    description: 'התאמה אישית לצרכי התלמיד/ה עם המון סבלנות והכלה.',
+    title: 'חינוך מיוחד והוראה מותאמת',
+    description:
+      'התאמת שיטת ההוראה לצרכים האישיים של התלמיד או התלמידה, בסביבה מכילה ומכבדת.',
     icon: HeartHandshake,
   },
 ] as const
 
 const audience = [
-  'ילדים שזקוקים לחיזוק בקריאה, כתיבה והבנת הנקרא.',
-  'תלמידים המתמודדים עם הפרעות קשב וריכוז (ADHD) או לקויות למידה.',
-  'תלמידים שחווים תסכול או פערים לימודיים וזקוקים לחיזוק הביטחון העצמי.',
-  'הכנה ממוקדת לקראת מעברים חשובים (כמו עלייה לכיתה א\' או חטיבת ביניים).',
+  'תלמידים הזקוקים לחיזוק בקריאה, בכתיבה ובהבנת הנקרא.',
+  'תלמידים עם לקויות למידה או הפרעת קשב וריכוז (ADHD).',
+  'תלמידים החווים פערים לימודיים או ירידה בביטחון העצמי סביב הלמידה.',
+  'הכנה ממוקדת למעברים משמעותיים, כגון עלייה לכיתה א׳ או מעבר לחטיבת הביניים.',
 ] as const
 
 const processSteps = [
   {
     step: '1',
-    title: 'פגישת היכרות ומיפוי',
+    title: 'היכרות ומיפוי צרכים',
     description:
-      'אבחון קצר של רמת התלמיד וזיהוי חוזקות ונקודות לחיזוק.',
+      'פגישת היכרות והערכה ראשונית לזיהוי חוזקות, קשיים ונקודות להתערבות.',
   },
   {
     step: '2',
-    title: 'בניית תוכנית עבודה אישית',
+    title: 'בניית תוכנית אישית',
     description:
-      'התאמת חומרי הלימוד וקצב ההתקדמות לצרכים הספציפיים של התלמיד.',
+      'התאמת יעדים, חומרי לימוד וקצב העבודה לצרכים ולסגנון הלמידה של התלמיד.',
   },
   {
     step: '3',
-    title: 'למידה חווייתית ומעקב',
+    title: 'הוראה מותאמת ומעקב',
     description:
-      'שימוש בעזרים מגוונים, משחקים דידקטיים, ושקיפות מלאה מול ההורים לאורך כל הדרך.',
+      'עבודה שיטתית עם כלים דידקטיים מגוונים, ודיווח שוטף ושקוף להורים לאורך התהליך.',
   },
 ] as const
 
@@ -111,12 +115,12 @@ export default function LandingPage() {
           </h1>
 
           <p className="animate-fade-up-delay-1 mt-3 max-w-2xl text-lg font-semibold leading-relaxed text-lake-900 sm:text-xl md:text-2xl">
-            מורה מומחית להוראה מותאמת וחינוך מיוחד
+            הוראה מותאמת וליווי לימודי מקצועי
           </p>
 
           <p className="animate-fade-up-delay-2 mt-5 max-w-xl text-base leading-relaxed text-ink-muted sm:text-lg">
-            הקניית קריאה, כתיבה וקידום לימודי לכל הגילאים (מכיתות יסוד ועד
-            הכנה לבגרות)
+            ליווי אישי בהקניית קריאה וכתיבה, חיזוק מיומנויות למידה וקידום
+            לימודי — מכיתות היסוד ועד הכנה לבגרות.
           </p>
 
           <div className="animate-fade-up-delay-3 mt-9">
@@ -127,7 +131,7 @@ export default function LandingPage() {
               className="inline-flex min-h-12 items-center justify-center gap-2.5 rounded-2xl bg-whatsapp px-7 py-3.5 text-base font-bold text-white shadow-[0_12px_32px_rgba(37,211,102,0.45)] transition duration-200 hover:scale-[1.03] hover:bg-whatsapp-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-whatsapp active:scale-[0.98] sm:text-lg"
             >
               <WhatsAppIcon className="h-5 w-5 shrink-0" />
-              שליחת הודעה לכינרת
+              ליצירת קשר בוואטסאפ
             </a>
           </div>
         </div>
@@ -152,15 +156,15 @@ export default function LandingPage() {
                 id="about-heading"
                 className="text-2xl font-bold text-lake-900 sm:text-3xl"
               >
-                קצת עליי
+                אודות
               </h2>
               <div className="mt-2 h-1 w-14 rounded-full bg-sage-500" />
 
               <p className="mt-6 text-lg leading-8 text-ink-muted sm:text-xl sm:leading-9">
-                שלום! שמי כינרת, אני מורה לחינוך מיוחד עם תעודת הוראה לחינוך
-                המיוחד, עובדת במערכת החינוך בתור מורת שילוב ומורת כו״ח ומעבירה
-                שיעורים פרטיים למגוון גילאים מזה 8 שנים. מומחית בהוראה
-                מותאמת-מקדמת.
+                שמי כינרת שמם, מורה לחינוך מיוחד בעלת תעודת הוראה בחינוך
+                המיוחד. במערכת החינוך אני משמשת כמורת שילוב ומורת כו״ח, ובמקביל
+                מלווה תלמידים בשיעורים פרטיים מזה כ־8 שנים. אני מתמחה בהוראה
+                מותאמת ומקדמת, המותאמת לצרכים הייחודיים של כל תלמיד ותלמידה.
               </p>
             </div>
           </div>
@@ -179,14 +183,14 @@ export default function LandingPage() {
               id="belief-heading"
               className="text-2xl font-bold text-white sm:text-3xl"
             >
-              האני מאמין שלי
+              גישת העבודה
             </h2>
             <div className="mx-auto mt-2 h-1 w-14 rounded-full bg-sage-500" />
             <blockquote className="mt-8 text-lg leading-8 text-lake-100 sm:text-xl sm:leading-9">
-              אני מאמינה שכל ילד יכול להצליח ללמוד ולהתקדם, ברגע שמתאימים לו את
-              הדרך הנכונה. מעבר להקניית החומר, המטרה שלי היא להחזיר לתלמידים את
-              תחושת המסוגלות, לחזק את הביטחון העצמי שלהם, ולתת להם כלים להצלחה
-              עצמאית.
+              אני מאמינה שכל תלמיד יכול להתקדם ולהצליח כאשר מותאמים לו דרך
+              הלמידה, הקצב והכלים הנכונים. מעבר לרכישת הידע, המטרה היא לחזק את
+              תחושת המסוגלות והביטחון העצמי, ולצייד את התלמידים באסטרטגיות
+              למידה שישרתו אותם גם באופן עצמאי.
             </blockquote>
           </div>
         </section>
@@ -201,7 +205,7 @@ export default function LandingPage() {
               id="audience-heading"
               className="text-2xl font-bold text-lake-900 sm:text-3xl"
             >
-              למי השיעורים מתאימים?
+              למי הליווי מתאים
             </h2>
             <div className="mt-2 h-1 w-14 rounded-full bg-sage-500" />
 
@@ -236,7 +240,7 @@ export default function LandingPage() {
                 id="process-heading"
                 className="text-2xl font-bold text-lake-900 sm:text-3xl"
               >
-                איך נראה תהליך העבודה?
+                תהליך העבודה
               </h2>
               <div className="mt-2 h-1 w-14 rounded-full bg-sage-500" />
             </div>
@@ -281,7 +285,7 @@ export default function LandingPage() {
               </h2>
               <div className="mt-2 h-1 w-14 rounded-full bg-sage-500" />
               <p className="mt-4 text-base text-ink-muted sm:text-lg">
-                ליווי אישי ומדויק, בהתאם לקצב ולצרכים של כל תלמיד ותלמידה.
+                ליווי פרטני המותאם לקצב, ליכולות ולצרכים של כל תלמיד ותלמידה.
               </p>
             </div>
 
@@ -316,7 +320,7 @@ export default function LandingPage() {
               id="pricing-heading"
               className="text-2xl font-bold text-lake-900 sm:text-3xl"
             >
-              פרטים
+              מידע חשוב
             </h2>
             <div className="mt-2 h-1 w-14 rounded-full bg-sage-500" />
 
@@ -328,7 +332,8 @@ export default function LandingPage() {
                 <div>
                   <h3 className="font-bold text-lake-900">מיקום השיעורים</h3>
                   <p className="mt-1 text-base leading-7 text-ink-muted">
-                    השיעורים מתקיימים בבית המורה / שיעורים מרחוק
+                    השיעורים מתקיימים בבית המורה או בלמידה מרחוק, בהתאם
+                    לצורך ולתיאום מראש.
                   </p>
                 </div>
               </div>
@@ -340,18 +345,20 @@ export default function LandingPage() {
                 <div>
                   <h3 className="flex items-center gap-2 font-bold text-lake-900">
                     <Sparkles className="h-4 w-4 text-sage-600" aria-hidden />
-                    חשוב לדעת
+                    החזרים ביטוחיים
                   </h3>
                   <p className="mt-1 text-base leading-7 text-ink-muted">
-                    ישנן תעודות המוכרות לביטוחים הפרטיים להחזרים (בהתאם לתנאי
-                    הפוליסה שלכם)
+                    ניתן לקבל תיעוד מקצועי המוכר בחלק מהביטוחים הפרטיים
+                    להחזרי טיפולים — בכפוף לתנאי הפוליסה שלכם.
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="mt-10 text-center">
-              <p className="mb-5 text-ink-muted">לפרטים נוספים.</p>
+              <p className="mb-5 text-ink-muted">
+                לשאלות ולתיאום שיעור היכרות —
+              </p>
               <a
                 href={WHATSAPP_URL}
                 target="_blank"
@@ -359,7 +366,7 @@ export default function LandingPage() {
                 className="inline-flex min-h-12 items-center justify-center gap-2.5 rounded-2xl bg-whatsapp px-7 py-3.5 text-base font-bold text-white shadow-[0_12px_32px_rgba(37,211,102,0.45)] transition duration-200 hover:scale-[1.03] hover:bg-whatsapp-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-whatsapp active:scale-[0.98]"
               >
                 <WhatsAppIcon className="h-5 w-5 shrink-0" />
-                שליחת הודעה לכינרת
+                ליצירת קשר בוואטסאפ
               </a>
             </div>
           </div>
@@ -377,7 +384,7 @@ export default function LandingPage() {
         href={WHATSAPP_URL}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="שליחת הודעה לכינרת בוואטסאפ"
+        aria-label="יצירת קשר עם כינרת בוואטסאפ"
         className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-whatsapp text-white shadow-[0_10px_28px_rgba(37,211,102,0.45)] transition duration-200 hover:scale-110 hover:bg-whatsapp-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-whatsapp sm:bottom-7 sm:right-7 sm:h-16 sm:w-16"
       >
         <span
